@@ -282,7 +282,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Models\Island\Scripts\CharacterMovement.cs" />
+    <Compile Include="Assets\Models\Island\Scripts\FixedTiling.cs" />
+    <Compile Include="Assets\Models\Island\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Models\Island\Scripts\WaterScroller.cs" />
+    <Compile Include="Assets\Scripts\GameManeger.cs" />
+    <Compile Include="Assets\Scripts\SceneMov.cs" />
     <Compile Include="Assets\test.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Models\sci-fi-weapons\sci-fi-weapons\README.txt" />
+    <None Include="Assets\Models\western-props-pack\README.txt" />
+    <None Include="Assets\Models\worm\moves\Warmm_hand_move.xml" />
+    <None Include="Assets\Models\worm\moves\Warmm_move.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
