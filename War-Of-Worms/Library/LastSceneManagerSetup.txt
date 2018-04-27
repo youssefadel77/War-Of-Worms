@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Models/Island/Scenes/Demo.unity
+- path: Assets/Scenes/tiltedTowers.unity
   isLoaded: 1
   isActive: 1

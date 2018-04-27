@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/scene01.unity
     guid: 359a0de75d918554194ec4426b355ada
+  - enabled: 0
+    path: Assets/Scenes/chooseGunMenuScene.unity
+    guid: 5c3bc85876705e94fb28af4a3f760280

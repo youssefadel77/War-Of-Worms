@@ -3,7 +3,7 @@ guid: 23c4dfb5b9c3a0f48b82935b55acaf0f
 timeCreated: 1522513739
 licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 21
   fileIDToRecycleName:
     100000: Bip001
     100002: Bip001 Footsteps
@@ -91,6 +91,8 @@ ModelImporter:
     100166: Rectangle001
     100168: Warmm
     100170: //RootNode
+    100172: Warmm_MeshPart0
+    100174: Warmm_MeshPart1
     400000: Bip001
     400002: Bip001 Footsteps
     400004: Bip001 Head
@@ -177,6 +179,8 @@ ModelImporter:
     400166: Rectangle001
     400168: Warmm
     400170: //RootNode
+    400172: Warmm_MeshPart0
+    400174: Warmm_MeshPart1
     2100000: 'Material #5500'
     2100002: 'Material #550'
     2100004: 16 - Default
@@ -193,18 +197,22 @@ ModelImporter:
     2100026: 'Material #31'
     2300000: DrawCall_004
     2300002: Warmm
+    2300004: Warmm_MeshPart0
+    2300006: Warmm_MeshPart1
     3300000: DrawCall_004
     3300002: Warmm
+    3300004: Warmm_MeshPart0
+    3300006: Warmm_MeshPart1
     4300000: DrawCall_004
     4300002: Warmm
+    4300004: Warmm_MeshPart0
+    4300006: Warmm_MeshPart1
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -217,7 +225,6 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -242,8 +249,6 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
