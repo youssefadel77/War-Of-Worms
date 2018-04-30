@@ -291,10 +291,12 @@
     <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Boom\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\Models\sci-fi-weapons\sci-fi-weapons\README.txt" />
     <None Include="Assets\Models\western-props-pack\README.txt" />
     <None Include="Assets\Models\worm\moves\Warmm_hand_move.xml" />
     <None Include="Assets\Models\worm\moves\Warmm_move.xml" />
+    <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />

@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Models/Island/Scenes/Demo.unity
     guid: 287e1befdc038254ea86dbc850eb2ab2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/scene01.unity
     guid: 359a0de75d918554194ec4426b355ada
   - enabled: 1
     path: Assets/Scenes/test_finish.unity
     guid: 2ee758859ae12c348bf6307bf021e247
+  - enabled: 1
+    path: Assets/aftermass/game scene.unity
+    guid: ecef8d3f18ca7114c9571ba4a123a21f

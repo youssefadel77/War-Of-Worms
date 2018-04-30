@@ -9,10 +9,25 @@ public class Movements : MonoBehaviour {
     public LaunchScript _Laun;
     private int if_played = 0;
     Animator anim;
+    
+    //camera
+    public GameObject thePlayer;
+    public Camera firstCam;
+    public Camera thirdCam;
+    private bool check;
+    //
+
+
     // Use this for initialization
     void Start () {
         //rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
+        
+        //camera
+        thirdCam.enabled = true;
+        firstCam.enabled = false;
+        check = true;
+        //
     }
 
     void movementControl(string state)
@@ -42,6 +57,7 @@ public class Movements : MonoBehaviour {
     void Update ()
     {
         if (Input.GetMouseButton(0)) { 
+
             if (Wepeon == 1)
             {
                 if (if_played == 0)
@@ -62,6 +78,18 @@ public class Movements : MonoBehaviour {
             {
                 movementControl("idel");
             }
+        //camera 
+        if (check)
+        {
+            thirdCam.enabled = false;
+            firstCam.enabled = true;
+        }
+        else
+        {
+            thirdCam.enabled = true;
+            firstCam.enabled = false;
+        }
+        check = !check;
     }
 
     IEnumerator Example()

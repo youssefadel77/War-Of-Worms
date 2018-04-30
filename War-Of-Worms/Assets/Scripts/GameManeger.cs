@@ -11,8 +11,7 @@ public class GameManeger : MonoBehaviour {
     private bool playedDied = false;
     private bool gameStarted = false;
     [SerializeField] private GameObject mainMenu;
-    
-
+    //[SerializeField] private GameObject choose
     void Awake()
     {
         if (instance == null)
@@ -35,27 +34,23 @@ public class GameManeger : MonoBehaviour {
         }
     }
     // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-    //
-    public void PlayerDead()
-    {
-        playedDied = true;
-    }
-    //
     public void EnterGame (string sceneName)
     {
         mainMenu.SetActive(false);
         gameStarted = true;
         newscene(sceneName);
+    }
+
+
+    //public void active()
+    //{
+    //    choose.SetActive(true);
+    //}
+
+
+    public void EndGame ()
+    {
+        Application.Quit();
     }
 
     private static void newscene(string sceneName)

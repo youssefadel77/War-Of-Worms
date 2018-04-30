@@ -17,7 +17,7 @@ public class changePOV : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetKey(KeyCode.V))
         {
             if (check)
             { 
